@@ -1,23 +1,23 @@
 # CODTECHIT_TASK1
 
-Name: Prabhakaran R
+## Name: Prabhakaran R
 
-Domain: Machine Learning
+## Domain: Machine Learning
 
-Intern ID : CT08ETY
+## Intern ID : CT08ETY
 
-Company: CODTECHIT SOLUTIONS
+## Company: CODTECHIT SOLUTIONS
 
-Project: Linear Regression on Housing Prices
+## Project: Linear Regression on Housing Prices
 
-Project Overview:
+## Project Overview:
 
-Objective:
+## Objective:
 The goal of the project is to build a predictive model using Linear Regression to estimate housing prices based on various influential factors. This project demonstrates the application of machine learning in solving real-world regression problems, specifically in the housing market.
 
-Dataset:
+## Dataset:
 
-file : [housing.csv](https://github.com/user-attachments/files/18254708/housing.csv)
+## dataset link : [housing.csv](https://github.com/user-attachments/files/18254708/housing.csv)
 
 
 The dataset used contains housing-related features such as:
@@ -28,47 +28,47 @@ PTRATIO: Pupil-teacher ratio by town.
 
 These features were chosen to predict the MEDV, which represents the median house prices.
 
-Key Steps:
+## Key Steps:
 
-Data Loading and Exploration:
+## Data Loading and Exploration:
 
 The dataset is loaded using Pandas, and its structure is analyzed using .info() to understand the column details and data types.
 
-Feature Selection:
+## Feature Selection:
 
 Selected the features RM, LSTAT, and PTRATIO as input variables and the MEDV column as the target variable.
 
-Data Splitting:
+## Data Splitting:
 
 Split the dataset into training and testing subsets using train_test_split, with 75% of the data for training and 25% for testing. A random state of 6 ensures reproducibility.
 
-Model Training:
+## Model Training:
 
 Used the LinearRegression model from sklearn to fit the training data, learning the relationship between the selected features and the target variable.
 
-Prediction:
+## Prediction:
 
 Generated predictions on the test dataset using the trained model.
 
-Accuracy Evaluation:
+## Accuracy Evaluation:
 
 Used the accuracy_score metric to evaluate the model's performance. Predictions and actual values were rounded to integers to ensure compatibility with the accuracy metric.
 
-Challenges and Learnings:
+## Challenges and Learnings:
 
 This project showcased how Linear Regression can be applied to solve regression problems in real-world scenarios.
 Challenges included selecting the right features and ensuring the model generalizes well to unseen data.
 
-Results:
+## Results:
 
 The accuracy score provides a quantitative measure of the model's performance in predicting housing prices.
 
-Future Improvements:
+## Future Improvements:
 
 Explore additional features in the dataset to improve model accuracy.
 Experiment with feature scaling and polynomial regression for better results.
 
-PROJECT RESULTS :
+## PROJECT RESULTS :
 
 ![tone1](https://github.com/user-attachments/assets/c7ea4b81-4479-49b9-8ee0-74e7cce5f971)
 
